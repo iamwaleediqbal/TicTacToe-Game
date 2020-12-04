@@ -15,11 +15,16 @@ You will lose the test case if you write to an invalid board and/or write to a s
 Game Rules:
 Like the original Tic-Tac-Toe, Player 1 is represented by either 'X' or ‘O’ and Player 2 (player 2 is computer, in this case) is represented by the opposite sign 
 (if Player 1 is ‘X’, then Player 2 is ‘O’). To start the game, Player 1 places his/her chosen sign on any one of the 81 empty squares, and then players alternate turns. 
+
 However, after the initial move, players must play the board that mirrors the square from the previous player. 
+
 For example: If Player 1 places an X in the upper-right square of a board, then Player 2 must play the upper-right board.
 Continuing the example: If Player 2 places an O on the lower-middle square, then Player 1 must next play the lower-middle board. 
 
+
 Here are the necessary exceptions: 
+
+
 If the next move is to a board that is full or has already been won, then that player may choose an open square on any board, for that turn.
 If a player marks 3 consecutive squares (horizontally, vertically or diagonally) on any given board, he wins that board.
 The first player to win 3 consecutive boards (horizontally, vertically or diagonally) wins the game.
